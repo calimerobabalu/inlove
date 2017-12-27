@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+    sectionsColor: ['yellow', '#3D464D', '#C0C0C0', '#ADD8E6'],
     afterLoad: function(anchorLink, index) {
       var loadedSection = $(this);
 
