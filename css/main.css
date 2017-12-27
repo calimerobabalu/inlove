@@ -275,6 +275,65 @@ nav a:hover {
 }
 
 
+
+
+
+
+
+
+/* Heart */
+
+.cuore {
+  background-color: #3D464D; 
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.heart {
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin: -4.5em -5em;
+  width: 10em;
+  height: 9em;
+  animation: pulsate 1s ease infinite;
+}
+.heart:before, .heart:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #B94A48;
+  width: 5em;
+  height: 8em;
+  top: 0.65em;
+  left: 5em;
+  border-radius: 5em 5em 0 1em;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0em;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  border-radius: 5em 5em 1em 0;
+}
+
+
+
+
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
