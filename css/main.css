@@ -158,7 +158,7 @@ nav a:hover {
     width: 100%;
     height: 100vh;
     object-fit: contain;
-    background-color: #CECCC9;
+    background-color: #3D464D;
   }
 
 .dark {
@@ -222,7 +222,7 @@ nav a:hover {
   overflow: hidden;
   width: 56px;
   height: 56px;
-  top: 28px;
+  top: 128px;
   border-radius: 50%;
   background-color: #fff;
 }
@@ -249,7 +249,7 @@ nav a:hover {
 }
 
 .body .eye.left {
-  left: 15px;
+  left: 415px;
 }
 
 .body .eye.left:before {
@@ -262,7 +262,7 @@ nav a:hover {
 }
 
 .body .eye.right {
-  right: 15px;
+  right: -385px;
 }
 
 .body .eye.right:before {
@@ -285,6 +285,7 @@ nav a:hover {
 
 .cuore {
   background-color: #3D464D;
+  color: white;
 }
 
 @keyframes pulsate {
