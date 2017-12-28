@@ -153,14 +153,12 @@ nav a:hover {
   font-size: 3em;
 }
 
-.content {
-  margin: 50px
-}
 
 .cartoon {
     width: 100%;
     height: 100vh;
     object-fit: contain;
+    background-color: #CECCC9;
   }
 
 .dark {
